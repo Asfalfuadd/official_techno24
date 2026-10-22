@@ -1,0 +1,4 @@
+[21-Oct-2026 15:37:04 Asia/Makassar] DB error: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for sql313.infinityfree.com failed: No such host is known. 
+[22-Oct-2026 05:57:50 Asia/Makassar] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\ASUS\xampp\htdocs\techno24\setup.php on line 17
+[22-Oct-2026 07:46:45 Asia/Makassar] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\ASUS\xampp\htdocs\techno24\setup.php on line 17
+[22-Oct-2026 07:47:06 Asia/Makassar] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\Users\ASUS\xampp\htdocs\techno24\setup.php on line 17

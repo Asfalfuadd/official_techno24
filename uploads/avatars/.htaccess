@@ -1,0 +1,7 @@
+# Folder unggahan: blokir eksekusi skrip & daftar folder.
+# InfinityFree: php_flag / Options -ExecCGI tidak diizinkan di .htaccess dan membuat
+# 500 "Something Went Wrong!" untuk SEMUA file di folder ini. Jangan pakai php_flag!
+<FilesMatch "\.(php|phtml|php[0-9]|phar|cgi|pl|py|sh|asp|aspx)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes

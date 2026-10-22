@@ -1,0 +1,8 @@
+# Folder unggahan: blokir eksekusi skrip & daftar folder.
+# InfinityFree: php_flag / Options -ExecCGI tidak diizinkan di .htaccess dan membuat
+# 500 "Something Went Wrong!" untuk SEMUA file di folder ini (avatar, story, foto
+# galeri, bukti kas jadi tidak tampil). Jangan tambahkan php_flag di sini!
+<FilesMatch "\.(php|phtml|php[0-9]|phar|cgi|pl|py|sh|asp|aspx)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes
