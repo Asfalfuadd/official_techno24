@@ -92,7 +92,7 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px 8px
 @media(max-width:900px){
  .g3,.g4,.g-desktop-3{grid-template-columns:repeat(2,1fr)}
  .g-desktop-split,.g-desktop-split-rev{grid-template-columns:1fr}
- .sidebar{transform:translateX(-100%);width:260px}body.drawer .sidebar{transform:none}
+ .sidebar{transform:translateX(-100%)!important;width:260px;animation:none!important}.sidebar nav a,.sidebar .nav-sep{animation:none!important}body.drawer .sidebar{transform:none!important}
  body.drawer .scrim{display:block;position:fixed;inset:0;background:rgba(2,6,23,.5);z-index:30}
  .main,body.collapsed .main{margin-left:0;width:100%}body.collapsed .sidebar{width:260px}body.collapsed .sidebar span,body.collapsed .brand-name,body.collapsed .nav-sep{display:inline}
  .bottomnav{display:flex;position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--line);z-index:25;padding-bottom:env(safe-area-inset-bottom)}
